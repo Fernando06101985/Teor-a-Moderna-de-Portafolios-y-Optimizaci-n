@@ -1,0 +1,6 @@
+{
+  "name": "Teoría Moderna de Portafolios y Optimización",
+  "description": "Dashboard financiero para el análisis de portafolios de inversión, métricas de riesgo y matrices de correlación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
