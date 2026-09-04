@@ -7,6 +7,13 @@
   from = "/historical"
   to = "/.netlify/functions/historical"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
