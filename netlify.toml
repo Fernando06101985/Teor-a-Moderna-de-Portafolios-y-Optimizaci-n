@@ -1,0 +1,16 @@
+[build]
+  base = "teoría-moderna-de-portafolios-y-optimización"
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/historical"
+  to = "/.netlify/functions/historical"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
